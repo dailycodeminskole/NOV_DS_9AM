@@ -1,0 +1,76 @@
+#################################################
+#  27.07.2023 9.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉  Strings in Python
+#################################################
+
+# HW
+# find the data type in the below eg
+x = " "
+y = ""
+z = " ; "
+print(x)
+print(type(x))
+print(y)
+print(type(y))
+print(z)
+print(type(z))
+
+# Escape character
+#  /U
+#  /t add a TAB
+#  /n add a NEW LINE
+
+print(r"C:\Users\RAHUL\Documents\OneDjango\Hello\static")
+print(r"C:\tanmay\Documents\OneDjango\Hello\static")
+print("C:\\nilesh\Documents\OneDjango\Hello\static")
+
+
+print("Ramesh , Suresh , Nitin")
+print("Ramesh")
+print("Suresh")
+print("Nitin")
+
+print("Ramesh , \nSuresh , \nNitin")
+
+# INDEXING in Strings
+#         01234
+name  =  "NAVIN"
+
+
+# 
+print(name)
+print(name[0])
+print(name[1])
+# print(name[5]) out of range
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
