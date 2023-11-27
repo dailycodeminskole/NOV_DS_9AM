@@ -1,0 +1,133 @@
+#################################################
+#  24.07.2023 9.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Data Types in Python
+# 👉 Into to Strings
+#################################################
+
+# variable assignment
+
+x = 100
+y = 200
+z = 300
+
+print(x)
+print(y)
+print(z)
+
+x = "Ramesh"
+print(x)
+
+# assigning the values to multiple variable in a single line
+a,b,c = 20,30,40 #not recommended , poor readability
+
+print(a)
+print(b)
+print(c)
+
+
+
+# using id()
+
+
+s1 = 100
+s2 = 100
+
+
+print(s1)
+print(s2)
+
+print(id(s1))
+print(id(s2))
+
+s1 = 300
+print(id(s1))
+print(id(s2))
+
+
+
+# Data Types in Python
+'''
+1. Numbers
+    a. Int
+    b. Float
+    c. Complex
+2. Strings
+3. List
+4. Tuples
+5. Sets
+6. Dictionaries
+7. Boolean
+8. etc etc..
+'''
+
+
+
+# Intro to strings Data type
+# anything under 
+# ''
+# " "
+# ''' '''
+# it will be considereed as a strings
+
+name  = "Nilesh"
+print(name)
+print(type(name)) #<class 'str'>
+
+
+
+x = 100
+print(type(x)) #<class 'int'>
+
+
+pi = 3.1417
+print(type(pi)) #<class 'float'>
+
+
+z = "100"
+print(type(z)) #<class 'str'>
+
+# HW
+# find the data type in the below eg
+x = " "
+y = ""
+z = " ; "
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
