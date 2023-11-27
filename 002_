@@ -1,0 +1,84 @@
+#################################################
+#  23.11.2023 9.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+#  👉 Intro to  Python
+#  👉 Variables in Python
+#################################################
+
+# print is a function
+#  inside the () is called the Argument
+#  we change the Argument to get different o/p
+
+#  print is used to print the contents/argument as it is  , if it is inside 
+#  '' or " " or ''' '''
+
+
+print('This is a new day')
+print("It's my book")
+print('''gandhiji said,"you must speak truth"''')
+
+
+
+# Intro to  Python
+# ?refer the notepad for details
+
+# Variables in Python
+
+x = 100
+print(x)
+
+# allowed Variables
+
+i_am  =100
+i_am_  =100
+_i_am_  =100
+_i__am_  =100
+_1_1 =100
+
+print(_1_1)
+
+
+# not allowed
+'''
+@cool_boy = 100
+$$193@123 = 100
+123 = 500
+1_200 =200
+**123** = 200
+
+'''
+
+
+# allowed but not recommended
+# avoid use of dunder Variables
+__gaurav__ = "fun"
+print(__gaurav__)
+__gaurav__ = "not fun"
+print(__gaurav__)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
