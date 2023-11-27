@@ -1,0 +1,52 @@
+# where to write the code ?
+#
+'''
+1. offline
+  notepad
+  VS code
+  Pycharm
+  notebooks
+1.a Offline notebooks
+    Jupyter notebook
+    goole colab
+      
+2. online 
+'''
+
+# print() will print as it is 
+
+
+print("Hello World")
+print("Welcome to New delhi")
+print("100+100")
+
+# print() is acting as  a calculator
+print(100+100)
+print(100-100)
+print(100*100)
+print(100/100)
+print(100%100)
+print(100+100)
+
+
+# HW
+
+print('This is a new day')
+print('It's my book')
+print("gandhiji said,"you must speak truth")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
