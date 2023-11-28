@@ -1,0 +1,45 @@
+#################################################
+#  28.07.2023 9.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Strings in Python
+# 👉 Indexing
+# 👉 Slicing
+#################################################
+
+# Indexing
+#         0123456
+greet =  "WELCOME"
+print(type(greet))
+
+
+print(greet[0]) #W
+print(greet[5]) #M
+print(greet[1]) #E
+
+
+s = "It's a nice day"
+print(s[2]) # ' is printed as the 3rd char 
+print(s[4]) #blank space is printed
+print(s[5]) # a 
+
+
+# # Slicing
+
+# var_name[start:end] wil go for n-1
+# #         0123456
+greet =  "WELCOME"
+
+print(greet[3:6]) #COM
+print(greet[3:8]) #COME
+print(greet[3:]) #default last element will be considered
+print(greet[:7]) #default start element will be considered
+print(greet[:3]) #default start element will be considered
+
+
+
+
+num_telephone = "022-22876345"
+print(num_telephone[0:3]) # 022 state code
+print(num_telephone[3:4]) # - separator 
+print(num_telephone[3]) # - separator 
