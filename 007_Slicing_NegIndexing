@@ -1,0 +1,95 @@
+
+#################################################
+#  29.11.2023 9.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Strings in Python
+# 👉 Positive Indexing
+# 👉 Neg Indexing
+# 👉 Slicing with Jump Values
+#################################################
+
+email = "MINSKOLE@GMAIL.COM"
+
+# Indexing
+print(type(email)) #<class 'str'>
+print(email)
+print(email[8])
+print(email[14])
+
+# Slicing
+# var[start:stop] , n-1 stop value
+
+print(email[9:13])#GMAI
+print(email[9:14])#GMAIL
+
+
+
+# Slicing with JUMP Values
+# var_name[start:end:JUMP] wil go for n-1
+
+#         0123456
+greet =  "WELCOME"
+
+
+print(greet[0:7:1])# no changes in skip value = 1
+print(greet[0:7:2])# skip value = 2
+
+
+
+num = "0123456789"
+print(type(num))
+# even num from above string
+print(num[0:10:2])
+# odd num from above string
+print(num[1:10:2])
+
+print(num[1:10:3])
+
+
+
+# HW
+
+'''
+1. w = "+911234567890"
+> use slicing to get below O/P
++91
+89
++
+
+2. r = "We are learning Python v3.8"
+v3.8
+
+Python
+
+3. d = "1 2 3 4 5"
+print with skip/jump value 2
+
+'''
+
+
+
+# Negative Indexing
+
+greet =  "WELCOME"
+print(greet[3])
+print(greet[-4])
+
+
+
+# ?use of Neg Indexing
+
+# for string revesal
+
+print(greet[::-1])# Skip value = -1
+
+# palindrome
+name =  "Prakash"
+print(name[::-1])
+
+
+# to get the last character in the string
+s1 = "We are learning Python v3"
+print(s1[-1])
+s2 = "We are learning Python v4"
+print(s2[-1])
