@@ -1,0 +1,210 @@
+
+#################################################
+#  30.11.2023 9.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Strings mETHODS
+#################################################
+# Slicing with Neg Indexing
+
+greet =  "WELCOME"
+print(greet)
+print(greet[-1])
+print(greet[-4:-1])
+print(greet[-4:]) #this will work = COME
+print(greet[-4:-2]) #CO
+print(greet[-4:0]) #???
+
+
+# how to find the length of the string ??
+# using len() method
+s1 = "We are learning Python v3"
+s2 = "We are learning Python v4"
+
+print(len(s1))
+print(len(s2))
+print(s1[24])
+print(s2[24])
+
+greet =  "WELCOME"
+
+
+# methods are pre written codes
+# functions
+
+
+# editing related methods
+
+
+name = "UmAkAnt"
+print(type(name))
+
+# title()			Converts the first character of each word to upper case
+
+print(name.title())
+
+hobby = "to play Football"
+
+print(hobby.title())
+
+
+# capitalize()	Converts the first character to upper case
+
+print(hobby.capitalize())
+text = "hello word"
+print(text.capitalize())
+
+
+# casefold()		Converts string into lower case 
+#  it is   more aggressive 
+
+
+text = "HELLO wOrld"
+print(text.casefold()) #all in small
+text2 = "HÉLLÔ WÖRLD"
+
+
+
+# lower()			  Converts a string into lower case
+text3 = "HELLO wOrld"
+print(text3.lower())
+
+
+
+# swapcase()		Swaps cases, lower case becomes upper case and vice versa
+
+text  = "Hello World"
+print(text.swapcase())
+
+# upper()			Converts a string into upper case
+
+text = "hello World"
+
+print(text.upper())
+
+
+
+# strip , to remove extra spaces leading and trailing 
+place  = "       Pune"
+print(place.strip())
+
+fav = "i Love           Pune"
+print(fav.strip())
+
+pin = "          400076         "
+print(pin.strip())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# boolean methods
+# split
+
+
+# for editing 
+
+
+
+
+# # boolean methods 
+# # True or False
+
+# # endswith()		Returns true if the string ends with the specified value
+
+# s = "Today is Monday"
+
+# print(s.endswith("monday"))
+# print(s.endswith("Monday"))
+
+# x = s.casefold()
+# print(x)
+# print(x.endswith("monday"))
+
+# print(s.casefold().endswith("monday")) #we can use one method after another
+
+# # isalnum()		Returns True if all characters in the string are alphanumeric
+
+# p = "abc@123"
+# print(p.isalnum())
+
+# q = "abc123"
+# print(q.isalnum())
+
+# # isalpha()		Returns True if all characters in the string are in the alphabet
+
+# ans = "pass123"
+# print(ans.isalpha())
+
+# ans = "Password"
+# print(ans.isalpha())
+
+# # find()			Searches the string for a specified value and returns the position of where it was found
+# text = "OpenAI is an artificial intelligence research organization."
+
+
+# print(text.find("OpenAI"))
+# print(text.find("google")) #-1 if the string is absent
+# print(text.find("artificial"))
+
+# # index()			Searches the string for a specified value and returns the position of where it was found
+# print(text.index("OpenAI"))
+# print(text.index("artificial"))
+# # print(text.index("google")) #ValueError
+
+# # replace()		Returns a string where a specified value is replaced with a specified value
+# s = "Today is weekend"
+# print(s.replace("weekend","weekday"))
+# print(s)
+
+
+# # strip()			Returns a trimmed version of the string
+# name = "           Prakash"
+# print(name.strip())
+
+
+# # split()			Splits the string at the specified separator, and returns a list
+
+# s = "Today is weekend"
+# print(s.split(" "))
+
+# email = "minskole@gmail.com"
+# print(email.split("@"))
+
+# print(type(s))
+# print(type(email.split("@"))) #'list'
+
+
+# # Self Practice at Home
+
+# # isascii()		Returns True if all characters in the string are ascii characters
+
+# # isdecimal()		Returns True if all characters in the string are decimals
+# # isdigit()		Returns True if all characters in the string are digits
+# # isnumeric()
+# # islower()		Returns True if all characters in the string are lower case
+# # isnumeric()		Returns True if all characters in the string are numeric
+# # isspace()		Returns True if all characters in the string are whitespaces
+# # istitle()		Returns True if the string follows the rules of a title
+# # isupper()		Returns True if all characters in the string are upper case
+# # startswith()	Returns true if the string starts with the specified value
