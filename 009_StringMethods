@@ -1,0 +1,62 @@
+
+#################################################
+#  04.12.2023 9.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Strings METHODS
+#################################################
+
+text = "this Is THE new ground for upCOMING matches"
+print(text.title())
+print(text.capitalize())
+print(text.upper())
+
+
+
+# # boolean methods 
+# # True or False
+
+# # endswith()		Returns true if the string ends with the specified value
+
+s = "Today is Monday"
+print(s.endswith("Monday"))
+print(s.endswith("monday")) #case sensitive
+
+x = s.casefold()
+print(x)
+print(x.endswith("monday"))
+
+
+# # isalnum()		Returns True if all characters in the string are alphanumeric
+
+p = "abc@123"
+print(p.isalnum())
+
+
+q = "abc123"
+print(q.isalnum())
+
+# # isalpha()		Returns True if all characters in the string are in the alphabet
+
+ans = "pass123"
+print(ans.isalpha())
+
+ans = "Password"
+print(ans.isalpha())
+
+
+
+
+# # find()			Searches the string for a specified value and returns the position of where it was found
+text = "OpenAI is an artificial intelligence research organization."
+
+print(text.find("OpenAI")) #o/p will be the index posn of starting point of that string
+print(text.find("research")) #o/p will be the index posn of starting point of that string
+print(text.find("pushpak")) # o/p -1 , if the string is absent 
+print("Hi")
+
+# # index()			Searches the string for a specified value and returns the position of where it was found
+print(text.index("OpenAI"))
+print(text.index("research"))
+print(text.index("pushpak"))# if the required string is missing , the code will break
+print("Hi")
