@@ -1,0 +1,101 @@
+
+#################################################
+#  05.12.2023 9.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Strings METHODS
+#################################################
+
+
+# replace()		Returns a string where a specified value is replaced with a specified value
+s = "Today is weekend"
+ans  = s.replace('Today','Sunday')
+print(ans)
+print(s)
+print(ans)
+
+
+rule = "my way is the correct way"
+print(rule.replace('way','path'))
+
+
+
+# strip()			Returns a trimmed version of the string , only leading and trailing spaces
+name = "           Prakash            1  "
+print(name.strip())
+
+
+
+
+# split()			Splits the string at the specified separator, and returns a list
+email = "min@skole@gmail.com"
+new = email.split("@")
+print(new)
+
+print(type(new)) #list
+
+
+s = "Today is a good day"
+print(s.split(" "))
+
+print(s.split("o"))
+
+
+
+song = '''
+Jana-gana-mana-adhinayaka, jaya he
+
+Bharata-bhagya-vidhata.
+
+Punjab-Sindh-Gujarat-Maratha 
+
+Dravida-Utkala-Banga
+
+Vindhya-Himachala-Yamuna-Ganga 
+
+Uchchala-Jaladhi-taranga.
+
+Tava shubha name jage, 
+
+Tava shubha asisa mage, 
+
+Gahe tava jaya gatha, 
+
+Jana-gana-mangala-dayaka jaya he 
+
+Bharata-bhagya-vidhata.
+
+Jaya he, jaya he, jaya he, Jaya jaya jaya, jaya he!
+
+'''
+
+print(type(song))
+print(len(song))
+
+print(song.count('Bharata'))
+print(song.casefold().count('jaya he'))
+
+
+print(song.replace('Bharata',"India"))
+
+
+
+
+
+
+
+
+
+# # Self Practice at Home
+
+# # isascii()		Returns True if all characters in the string are ascii characters
+
+# # isdecimal()		Returns True if all characters in the string are decimals
+# # isdigit()		Returns True if all characters in the string are digits
+# # isnumeric()
+# # islower()		Returns True if all characters in the string are lower case
+# # isnumeric()		Returns True if all characters in the string are numeric
+# # isspace()		Returns True if all characters in the string are whitespaces
+# # istitle()		Returns True if the string follows the rules of a title
+# # isupper()		Returns True if all characters in the string are upper case
+# # startswith()	Returns true if the string starts with the specified value
