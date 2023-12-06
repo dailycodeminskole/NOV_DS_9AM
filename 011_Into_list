@@ -1,0 +1,95 @@
+#################################################
+#  06.12.2023 9.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 List in Pyhton
+#################################################
+
+# Intro to list
+# list is a collection of objects/items
+# Derived data type
+# heterogenous = mixed
+
+s = "Python"
+print(type(s))
+
+email = "minskole@gmail.com"
+ans = email.split("@")
+print(type(ans))
+
+
+# How to create a list
+# direct way by writing the items inside a square bracket
+
+list_fruits = ['apple','banana','grapes']
+print(list_fruits)
+print(type(list_fruits))
+
+list_num = [2,4,6,8,10]
+print(list_num)
+print(type(list_num))
+
+list_alnum = ['a','b','c',5,6,7]
+print(list_alnum)
+print(type(list_alnum))
+
+
+list_cap = ['a','b','c',5,6,7,['p','q','r']] #nested list 
+print(list_cap)
+print(type(list_cap))
+
+
+list_new = ['a','b','c',5,6,7,['p','q','r',[1,2,3]]] #nested list 
+print(type(list_new))
+
+
+
+list_fruits = ['apple','banana','grapes']
+print(len(list_fruits)) #3
+
+
+list_alnum = ['a','b','c',5,6,7]
+print(len(list_alnum))
+
+
+list_new = ['a','b','c',5,6,7,['p','q','r',[1,2,3]]]
+print(len(list_new))
+
+
+
+x = []
+print(x)
+print(len(x))
+
+
+y = [" "]
+print(y)
+print(len(y))
+
+z = [""]
+print(z)
+print(len(z))
+
+
+
+# creating a list using constructor/type casting
+
+name = "MINSKOLE"
+print(name)
+print(type(name))
+
+
+print(list(name))
+
+
+
+
+print(list("aeiou"))
+
+
+
+
+list_vow = ['a','e','i','o','u']
+print(list_vow)
+
+# accessing objects in a list using indexing
