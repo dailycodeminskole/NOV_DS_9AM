@@ -1,0 +1,71 @@
+#################################################
+#  08.12.2023 9.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 List Methods
+#################################################
+# for editing the list
+
+
+# append : add element at the end of the list
+# in-places changes : original list will be affected
+# Permanent changes
+# chances of data modification
+
+
+list_fruits = ['apple','mango','guava','chiku']
+print(list_fruits.append('banana'))
+print(list_fruits)
+
+
+list_fruits.append('orange') #updated list will get modified again
+print(list_fruits)
+
+
+
+
+# insert(index_posn,value)
+#           0   1  2  3  4  5 
+list_num = [11,22,33,44,55,66] #add 35 :  33 ?  44
+list_num.insert(3,35) #in-places changes : original list will be affected
+print(list_num)
+
+
+
+
+# extend 
+
+list_veg  = ['potato','onion','brinja']
+
+print(list_fruits.extend(list_veg))#in-places changes : original list will be affected
+
+print(list_fruits)
+
+
+
+
+# sort
+
+list_alpa = ['q', 'w', 'e', 'r', 't', 'u', 'y']
+print(list_alpa.sort()) #ascending
+print(list_alpa)
+
+# HW : sort > descending || parameter
+
+
+list_num = [44,55,77,11,44,88,9]
+list_num.sort() #ascending
+print(list_num)
+
+
+
+
+# list_alnum = ['a','f',45,'g',44]
+# list_alnum.sort()
+# print(list_alnum)
+
+
+
+list_alnum = ['a','f','45','g','44','555']
+list_alnum.sort()
+print(list_alnum)
