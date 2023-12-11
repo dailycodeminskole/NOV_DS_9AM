@@ -1,0 +1,129 @@
+#################################################
+#  11.12.2023 9.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 List Methods
+#################################################
+
+
+# list_num = [44,55,77,11,44,88,9,[1,2,3]]
+# list_num.sort() #not supported 
+# print(list_num)
+
+
+
+
+# reverse
+# index position 
+
+
+list_num = [44,55,66,11,22,33]
+print(list_num.reverse()) #inplace changes
+print(list_num)
+
+
+
+list_alnum = ['a','f',45,'g',44]
+list_alnum.reverse()
+print(list_alnum)
+
+
+# count
+# freq of the element
+list_fruits = ['apple','mango','guava','chiku','apple','banana']
+print(list_fruits.count('apple'))
+print(list_fruits.count('banana'))
+
+list_num = [44,55,77,11,44,88,9,[11,2,3],11,22]
+print(list_num.count(11))
+
+
+# index
+# position of the element's 1st occurance 
+
+print(list_fruits.index('apple'))
+print(list_fruits.index('mango'))
+
+
+
+# pop
+# removes the element at the given index
+# in place changes will occur + o/p will also be there
+
+
+list_fruits = ['apple','mango','guava','chiku','apple','banana']
+print(list_fruits.pop()) #inplace changes occur , default: last item
+print(list_fruits)
+
+print(list_fruits.pop()) #inplace changes occur , default: last item
+print(list_fruits)
+
+print(list_fruits.pop()) #inplace changes occur , default: last item
+print(list_fruits)
+
+
+print(list_fruits.pop(0)) #inplace changes occur , default: last item
+print(list_fruits)
+
+# remove
+# removes the given element 
+
+print(list_fruits.remove('guava'))
+print(list_fruits)
+
+
+# clear
+# all clear
+
+list_fruits = ['apple','mango','guava','chiku','apple','banana']
+print(list_fruits)
+
+print(list_fruits.clear())# o/p will bw an EMPTY list
+print(list_fruits)
+
+
+
+# del is a function
+# removes from the memory
+
+del list_fruits
+# print(list_fruits)#is not defined
+
+
+
+
+
+# Tuples
+# List is mutable data type
+list_fruits = ['apple','mango','guava','chiku','apple','banana']
+
+# tuple  is immutable data type : can not be changed or edited
+list_fruits_tup = ('apple','mango','guava','chiku','apple','banana')
+print(type(list_fruits_tup))
+print(list_fruits_tup)
+
+
+
+
+
+# count
+# number of repetetion
+
+print(list_fruits_tup.count('apple'))
+print(list_fruits_tup.count('mango'))
+
+
+
+# index
+
+
+print(list_fruits_tup.index('apple'))
+print(list_fruits_tup.index('mango'))
+
+
+
+# append ??
+print(list_fruits_tup.append('kiwi')) 
+
+
+
