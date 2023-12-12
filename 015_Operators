@@ -1,0 +1,116 @@
+#################################################
+#  12.12.2023 9.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Operators in Python
+#################################################
+
+
+'''
+Control flow in Python required understanding of
+> Operators
+> Boolean interpretation of the statements True/False
+
+'''
+
+''' 
+1. Arithmetic Operators:
+   - Addition (+)
+   - Subtraction (-)
+   - Multiplication (*)
+   - Division (/)
+   - Modulo (%)
+   - Exponentiation (**)
+   - Floor Division (//)
+
+2. Assignment Operators:
+   - Assignment (=)
+
+
+3. Comparison Operators:
+   - Equal to (==)
+   - Not equal to (!=)
+   - Greater than (>)
+   - Less than (<)
+   - Greater than or equal to (>=)
+   - Less than or equal to (<=)
+
+4. Logical Operators:
+   - AND (and)
+   - OR (or)
+   - NOT (not)
+
+5. Bitwise Operators:
+   - Bitwise AND (&)
+   - Bitwise OR (|)
+   - Bitwise XOR (^)
+   - Bitwise NOT (~)
+   - Left Shift (<<)
+   - Right Shift (>>)
+
+6. Membership Operators:
+   - In (in)
+   - Not in (not in)
+
+7. Identity Operators:
+   - is
+   - is not
+
+'''
+
+# Assignment Operators:
+
+x = 100
+email = "Minskole@gmail.com"
+list_e = [2,4,6,8]
+
+
+# Comparison Operators:
+
+
+
+a = 100
+b = 200
+
+
+print(a > b)
+print(a < b)
+print(a >= b)
+print(a <= b)
+print(a == b) #equality, comparison operator 
+
+
+# Logical Operators:
+
+
+a = 100
+b = 200
+x = 55
+y = 66
+
+
+print((a>b) and (x>y)) #F
+print((a<b) and (x>y)) #F
+print((a<b) and (x<y)) #T
+print((a>b) and (x<y)) #F
+
+
+print((a>b) or (x>y)) #F
+print((a<b) or (x>y)) #T
+print((a<b) or (x<y)) #T
+print((a>b) or (x<y)) #T
+
+
+# NOT
+#  will negate the output
+
+print(not((a>b) or (x>y))) #F : T
+print(not((a<b) or (x>y))) #T : F
+print(not((a<b) or (x<y))) #T : F
+print(not((a>b) or (x<y))) #T : F
+
+
+print(not((a>b) and (x>y))) #F
+print(not((a<b) and (x>y))) #F
+print(not((a<b) and (x<y))) #T
+print(not((a>b) and (x<y))) #F
