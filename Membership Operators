@@ -1,0 +1,98 @@
+#################################################
+#  14.12.2023 9.00AM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Membership Operators in Python
+# 👉 Bool  in Python
+#################################################
+#  Membership Operators:
+#   - In (in)
+#   - Not in (not in)
+# Case sensitive
+
+list_vo = ['A', 'E', 'I', 'O', 'U']
+
+print("a" in list_vo)
+print("A" in list_vo)
+print("z" in list_vo)
+
+
+print("a" not in list_vo)
+print("z" not in list_vo)
+print("A" not in list_vo)
+
+
+
+
+# boolean o/p of data types
+
+print(1)
+print(type(1))
+print(bool(1))
+
+print(0)
+print(type(0))
+print(bool(0)) #False only for ZERO is an INTEGER
+
+
+print(3)
+print(type(3))
+print(bool(3))
+
+print('0')
+print(type('0'))
+print(bool('0'))
+
+
+
+print(bool(True))
+print(bool(False))
+
+
+
+print(bool(''))#Empty will always be FALSE
+print(bool(' '))
+
+
+print(bool([1,2,3]))
+print(bool([0,0,0]))
+print(bool([0]))
+print(bool([])) #Empty will always be FALSE
+
+
+print(bool((1,2,3)))
+print(bool((1)))
+
+
+print(bool((0)))
+print(type((0))) #FALSE as its a INTEGER ZERO
+
+print(bool((0,)))
+print(type((0,))) #True as its a TUPLE
+
+
+print(bool(0)) #FALSE as its a INTEGER ZERO
+print(bool(00)) #FALSE as its a INTEGER ZERO
+print(bool(0.0)) #FALSE as its a INTEGER ZERO
+
+
+
+print(bool((0,0))) #TRUE as its a tuple with elements
+print(bool(())) # Empty will always be FALSE
+
+print(bool(False))
+print(bool((False,False)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
